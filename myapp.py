@@ -27,5 +27,5 @@ df = pd.DataFrame(np.random.randn(20, 3), columns=['a', 'b', 'c'])
 st.write(df)
  
 
-#option = st.selectbox('Choose an option', ['a', 'b', 'c'])
-#st.bar_chart(option)
+option = st.selectbox('Choose an option', ['a', 'b', 'c'])
+st.bar_chart(df[option])
