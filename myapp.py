@@ -21,5 +21,10 @@ def display_dataframe():
   df = pd.DataFrame(np.random.randn(20, 3), columns=['a', 'b', 'c'])
   return(df)
 
-option = st.selectbox('Choose an option', ['a', 'b', 'c'])
-st.bar_chart(option)
+
+dataframe1 = display_dataframe()
+st.write(dataframe1)
+ 
+
+#option = st.selectbox('Choose an option', ['a', 'b', 'c'])
+#st.bar_chart(option)
