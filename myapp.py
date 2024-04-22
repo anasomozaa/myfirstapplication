@@ -9,6 +9,7 @@ Original file is located at
 
 import pandas as pd
 import streamlit as st
+import numpy as np
 from PIL import Image
 
 image = Image.open('Logo-KDT-JU.webp')
